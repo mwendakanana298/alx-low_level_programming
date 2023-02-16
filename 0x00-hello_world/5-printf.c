@@ -1,7 +1,7 @@
-#include <stdoi.h>
+#include <stdio.h>
 /**
  * main - Printf function program
- * Return: 0 (pass)
+ * Return: Always 0
  */
 int main(void)
 {

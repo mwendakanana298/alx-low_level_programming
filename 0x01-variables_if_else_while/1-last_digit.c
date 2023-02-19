@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of the number stored in the variable
+ * main - Print last digit of the number stored in the variable
  *
- * Return: Always 0
+ * Return: Always 0 (Pass)
  */
 int main(void)
 {
@@ -29,5 +29,5 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n",
 			n, n % 10);
 	}
-
 	return (0);
+}

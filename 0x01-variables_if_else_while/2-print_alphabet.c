@@ -1,9 +1,17 @@
 #include <stdio.h>
 
-int main () {
-	char c ;
-	for (ch ="a"; ch <='z';c++){
-		putchar(c);
+/**
+ * main - print lower case 
+ * Return: Always 0 (pass)
+ */
+Int main(void)
+ {
+char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
 	}
+	putchar('\n');
 	return (0);
-	]
+}

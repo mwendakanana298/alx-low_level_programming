@@ -11,7 +11,7 @@ int main(void)
 	for (n = 23; n < 43; n++)
 	{
 		putchar(n);
-		if (n != 44)
+		if (n != 42)
 		{
 			putchar(',');
 			putchar(' ');

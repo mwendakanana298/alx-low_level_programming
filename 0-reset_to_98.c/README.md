@@ -1,0 +1,10 @@
+0-resetto98.c
+1-swap.c
+2-strlen.c
+3-puts.c
+4-printrev.c
+5-revstring.c
+6-puts2.c
+7-puthalf.c
+8-printarray.c
+9-strcpy.c

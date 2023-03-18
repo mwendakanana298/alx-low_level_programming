@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
-* string_nconcat - concatenates n bytes of a string to another string
+ * string_nconcat - a function that concatenates two strings.
  * @s1: first char
  * @s2: secound char
  * @n: unsigned int
- * Return: pointer to the resulting string
+ * Return: If the function fails, it should return NULL
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int x, y, z;
 char *s;
 if (s1 == NULL)
+{
 x = 0;
 }
 else

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* string_nconcat - a function that concatenates n bytes of a string to another string
+* string_nconcat - concatenates n bytes of a string to another string
  * @s1: first char
  * @s2: secound char
  * @n: unsigned int
@@ -16,7 +16,8 @@ x = 0;
 }
 else
 {
-for (x = 0; s1[x]; ++x);
+for (x = 0; s1[x]; ++x)
+;
 }
 if (s2 == NULL)
 {
@@ -24,7 +25,8 @@ y = 0;
 }
 else
 {
-for (y = 0; s2[y]; ++y);
+for (y = 0; s2[y]; ++y)
+;
 }
 if (y > n)
 y = n;
